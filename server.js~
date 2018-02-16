@@ -7,7 +7,6 @@ const mongoose = require('mongoose');
 const app = express();
 const Schema = mongoose.Schema;
 
-//mongodb://admin:password@ds231568.mlab.com:31568/symplicity
 const MLAB_URI = "mongodb://admin:password@ds231568.mlab.com:31568/symplicity";
 var userSchema = new Schema({
     username: String,

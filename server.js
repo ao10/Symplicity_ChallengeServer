@@ -36,7 +36,7 @@ app.use(cors({
 
 //Routes
 app.get('/', (req, res) => {
-    console.log("GET request received")
+    
 });
 app.post('/login', function (req, res) {
     //res.send('Login request receieved!')
