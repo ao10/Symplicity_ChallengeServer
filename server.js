@@ -34,10 +34,10 @@ app.use(cors({
     credentials: true,
 }));
 
+app.use(express.static(__dirname + "/"));
+
+
 //Routes
-app.get('/', (req, res) => {
-	res.sendFile('index.html');
-});
 app.post('/login', function (req, res) {
     //res.send('Login request receieved!')
     var accountInfo = req.body;
