@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/ao10/Symplicity_ChallengeServer/issues"
   },
-  "homepage": "https://github.com/ao10/Symplicity_ChallengeServer#readme"
+  "homepage": "https://github.com/ao10/Symplicity_ChallengeServer#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.2",
+    "mongoose": "^5.0.6",
+    "prettyjson": "^1.2.1"
+  }
 }
