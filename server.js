@@ -36,7 +36,7 @@ app.use(cors({
 
 //Routes
 app.get('/', (req, res) => {
-    
+	res.sendFile('index.html');
 });
 app.post('/login', function (req, res) {
     //res.send('Login request receieved!')
@@ -102,11 +102,6 @@ app.put('/vote', function (req, res) {
         }
     });
 
-//  console.log(fruitQuery);
-// var voteArray = fruitQuery.voterNames.clone();
-    //console.log(typeof(voteArray));
-//    voteArray.push(req.body.username);
-//    result = result.voterNames.push(req.body.username);
 })
 
 
